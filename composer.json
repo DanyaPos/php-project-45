@@ -11,5 +11,10 @@
             "email": "poslich8@gmail.com"
         }
     ],
-    "require": {}
+    "description": "",
+    "require": {
+    },
+    "bin": [
+    "bin/brain-games"
+    ]
 }
