@@ -1,1 +1,2 @@
-php bin/brain-games.php
+brain-games:
+	php bin/brain-games.php
