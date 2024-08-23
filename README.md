@@ -12,3 +12,7 @@
 ### Game BRAIN-GCD:
 
 <a href="https://asciinema.org/a/Bci15aH8z5TASFzHeqbxn9xzQ" target="_blank"><img src="https://asciinema.org/a/Bci15aH8z5TASFzHeqbxn9xzQ.svg" /></a>
+
+### Game BRAIN-PROGRESSION:
+
+<a href="https://asciinema.org/a/nFAMGyWUTm9IFHzFz98sM6Rje" target="_blank"><img src="https://asciinema.org/a/nFAMGyWUTm9IFHzFz98sM6Rje.svg" /></a>

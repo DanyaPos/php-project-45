@@ -3,27 +3,36 @@
 <?php
 
 require_once __DIR__ . '/../vendor/autoload.php';
+
 use function cli\line;
 use function cli\prompt;
 
 line('Welcome to the Brain Games!');
 $name = prompt('May I have your name?');
 line("Hello, %s!", $name);
-line('Answer "yes" if the number is even, otherwise answer "no".');
+line('What number is missing in the progression?');
 
-function rAns($num) 
+
+function rAns()
 {
-  if ($num % 2 == 0) {
-  return 'yes';
-} else {
-  return 'no';
+$arr = [];
+$num = rand(1, 10);
+$start = rand(1, 50);
+for ($i = 0, $start = rand(1, 50); $i < 10; $i++, $start+=$num){
+  $arr[$i] = $start; 
 };
-};
+return $arr;
+}
+
 
 for ($i = 1; $i <= 3; $i++)
 {
-  line("Question: %s", $num = rand(1, 100));
-  $rightAnswer = rAns($num);
+$myArr = rAns();
+$num3 = rand(0, 9);
+$rightAnswer = $myArr[$num3];
+$myArr[$num3] = '..';
+
+line("Question: %s", implode(' ', $myArr));
 $answer = prompt('Your answer');
 if ($answer == $rightAnswer){
     line('Correct!');
