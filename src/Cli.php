@@ -1,6 +1,7 @@
 <?php
+
 namespace BrainGames\Cli;
-require_once __DIR__ . '/../vendor/autoload.php';
+
 use function cli\line;
 use function cli\prompt;
 
