@@ -9,3 +9,6 @@ lint:
 
 brain-even:
 	./bin/brain-even
+
+install:
+	composer install
