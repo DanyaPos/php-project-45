@@ -10,26 +10,23 @@ use function cli\prompt;
 line('Welcome to the Brain Game!');
 $name = prompt('May I have your name?');
 line("Hello, %s!", $name);
-line('What is the result of the expression?');
+line('Find the greatest common divisor of given numbers.');
 
-$input = array('+','-','*');
 
-function rAns($num, $znak, $num1)
-{
-  switch ($znak) {
-    case '0': return $num + $num1;
-    case '1': return $num - $num1;
-    case '2': return $num * $num1;
-  }
-};
+function rAns($num, $num2) {
+    if($num2 > 0) {
+        return rAns($num2, $num % $num2);
+    } else {
+        return abs($num);
+    }
+}
 
 for ($i = 1; $i <= 3; $i++)
 {
-  $num = rand(1, 100);
-  $num2 = rand(1, 100);
-  $znak = array_rand($input);
-  line("Question: %s", "{$num} {$input[$znak]} {$num2}");
-  $rightAnswer = rAns($num, $znak, $num2);
+$num = rand(1, 100);
+$num2 = rand(1, 100);
+line("Question: %s", "{$num} {$num2}");
+$rightAnswer = rAns($num, $num2);
 $answer = prompt('Your answer');
 if ($answer == $rightAnswer){
     line('Correct!');
