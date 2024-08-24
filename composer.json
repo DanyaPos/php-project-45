@@ -18,7 +18,7 @@
     "bin": [
     "bin/brain-games",
     "bin/brain-even",
-    "bin/brain-cals",
+    "bin/brain-calс",
     "bin/brain-gcd",
     "bin/brain-progression",
     "bin/brain-prime"
