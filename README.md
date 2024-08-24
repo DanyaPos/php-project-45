@@ -16,3 +16,7 @@
 ### Game BRAIN-PROGRESSION:
 
 <a href="https://asciinema.org/a/nFAMGyWUTm9IFHzFz98sM6Rje" target="_blank"><img src="https://asciinema.org/a/nFAMGyWUTm9IFHzFz98sM6Rje.svg" /></a>
+
+### Game BRAIN-PRIME:
+
+<a href="https://asciinema.org/a/zD5adgBf6gCaRJCWCCYPP7Jd4" target="_blank"><img src="https://asciinema.org/a/zD5adgBf6gCaRJCWCCYPP7Jd4.svg" /></a>
